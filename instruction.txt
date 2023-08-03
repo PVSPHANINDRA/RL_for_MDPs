@@ -1,0 +1,33 @@
+###Note: Close the figures to complete the execution
+
+Install packages gym
+
+### For (True Online SARSA on Mountain Car) ###
+python3 main.py 2
+
+### For (True Online SARSA on Cart Pole) ###
+python3 main.py 3
+
+### For (True Online SARSA on Acrobot) ###
+python3 main.py 4
+
+
+### For (one step actor critic on mountain_car) ###
+python3 actor_critic/mountain_car.py
+
+### For (True Online SARSA on acrobot) ###
+python3 actor_critic/acrobot.py
+
+### For (True Online SARSA on cart_pole) ###
+python3 actor_critic/cart_pole.py
+
+### For (n_steps semi gradient on mountain_car) ###
+python3 n_steps/mountain_car.py
+
+### For (True Online SARSA on acrobot) ###
+python3 n_steps/acrobot.py
+
+### For (True Online SARSA on cart_pole) ###
+python3 n_steps/cart_pole.py
+
+
